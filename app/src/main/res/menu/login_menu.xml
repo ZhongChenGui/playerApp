@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_webdav"
+        android:title="webDav"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_nas"
+        android:title="Nas"
+        app:showAsAction="never" />
+
+<!--    ifRoom 显示在菜单栏外边-->
+</menu>

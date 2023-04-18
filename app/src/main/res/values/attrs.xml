@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoginEditView">
+        <attr name="HintText" format="string" />
+        <attr name="HintPassword" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MyCheckBox">
+        <attr name="text" format="string" />
+        <attr name="icon" format="reference" />
+    </declare-styleable>
+</resources>

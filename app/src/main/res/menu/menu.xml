@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_refresh"
+        android:title="刷新"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_history"
+        android:title="历史记录"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout_web"
+        android:title="退出webDav登录"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout_nas"
+        android:title="退出NAS登录"
+        app:showAsAction="never" />
+
+<!--    ifRoom 显示在菜单栏外边-->
+</menu>

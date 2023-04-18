@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PlayerApp" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/defaultColor</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/purple_700</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+<!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+        <item name="android:statusBarColor" >@color/purple_700</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.ToolBar.ZhiHu" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="overlapAnchor">false</item> <!--是为了将menu放到三个点的下面-->
+        <item name="android:textColorPrimary">@android:color/white</item> <!--三个点的颜色，如果下面不设置子标题颜色那么子标题字体颜色就会是三个点的颜色-->
+        <item name="android:textColorSecondary">@android:color/black</item> <!--子标题字体颜色-->
+        <item name="android:textSize">18sp</item> <!--修改字体大小-->
+        <item name="android:textColor">@color/black</item> <!--menu字体颜色-->
+        <item name="android:itemBackground">@color/defaultColor</item><!--修改item背景颜色-->
+<!--        <item name="actionOverflowButtonStyle">@style/OverflowButtonStyle</item> &lt;!&ndash;设置toolbar自带的三个点&ndash;&gt;-->
+    </style>
+    <!--设置toolbar自带的三个点-->
+<!--    <style name="OverflowButtonStyle" parent="@android:style/Widget.ActionButton.Overflow">-->
+<!--        <item name="android:src">@mipmap/ddddd</item>-->
+<!--    </style>-->
+</resources>
